@@ -1,0 +1,83 @@
+body { 
+    background-image: linear-gradient(to bottom , blue , rgb(4, 4, 110) ,  rgb(3, 3, 75) );
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(196, 194, 194);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main { 
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+iframe { 
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+}
+
+section { 
+    background-color: darkblue;
+    margin: 20px auto;
+    padding: 15px; 
+    border-radius: 2em;
+    border: solid 0.01em ;
+    box-shadow: 10px 1em 3em rgb(1, 1, 34) ;
+    transition: 1s ease;
+}
+
+h2 { 
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 0px 1px 2px rgb(0, 0, 0);
+}
+
+section p { 
+    text-align: center;
+    line-height: 1.55em;
+}
+h1 { 
+    text-align: center;
+    font-size: 3em ;
+}
+
+header p { 
+    text-align: center;
+    font-size: 1.2em;
+}
+
+section:hover { 
+    padding: 40px;
+    border-radius: 30px ;
+}
+
+.header-bloco { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+}
+.header-bloco h1 {
+    margin: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.espacador , .terra-inline { 
+    width: 50px;
+    height: 50px;
+}
+
+.terra-inline {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+}
+.terra-inline:hover {
+    transform: rotate(360deg);
+}
