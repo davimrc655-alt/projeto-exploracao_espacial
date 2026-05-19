@@ -6,7 +6,7 @@ O site foi desenvolvido do absoluto zero para consolidar meus aprendizados prát
 
 ## 📱 Demonstração
 Você pode acessar o projeto finalizado e rodando ao vivo pelo link abaixo:
-👉 [Visitar o site do projeto](https://davimrc655-alt.github.io/exploracao-espacial/) 
+👉 [Visitar o site do projeto](https://davimrc655-alt.github.io/projeto-exploracao_espacial/) 
 
 ## 🛠️ Tecnologias e Conceitos Utilizados
 
